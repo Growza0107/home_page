@@ -1,0 +1,46 @@
+/* About Section */
+.about-section {
+    width: 100vw;
+    padding: 80px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-section .container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  .about-image {
+    position: relative; /* Ensure positioning is relative */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .about-text {
+    flex: 1;
+    text-align: left;
+    padding: 0 40px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    color: #2c6e49;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  

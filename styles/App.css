@@ -1,0 +1,12 @@
+/* Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Ensure all elements fit inside the viewport */
+* {
+  box-sizing: border-box;
+}
